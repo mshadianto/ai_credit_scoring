@@ -4,4 +4,7 @@ pandas
 numpy
 scikit-learn
 requests
+sqlalchemy
 python-dotenv
+joblib
+matplotlib
