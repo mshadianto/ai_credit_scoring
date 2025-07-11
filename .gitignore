@@ -1,0 +1,103 @@
+# Ìø¶ AI Credit Scoring System - .gitignore
+# Created by MS Hadianto | RAG & Agentic AI Enthusiast
+
+# Ì¥ê SECURITY & SECRETS
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+api_keys.txt
+
+# Ì∞ç PYTHON
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.Python
+
+# Ìºê VIRTUAL ENVIRONMENTS
+venv/
+env/
+ENV/
+.venv/
+credit_scoring_env/
+
+# Ì≥ä STREAMLIT
+.streamlit/
+streamlit_app.log
+
+# Ì∑ÑÔ∏è DATABASE & DATA
+*.db
+*.sqlite
+*.sqlite3
+data/processed/
+data/raw/
+data/exports/
+
+# Ì¥ñ ML MODELS
+models/trained/*.joblib
+models/trained/*.pkl
+models/trained/*.h5
+models/exports/
+checkpoints/
+
+# Ì≥ù LOGS
+logs/
+*.log
+error.log
+debug.log
+
+# Ì¥ß IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ì≤ª OS FILES
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ì≥ã JUPYTER
+.ipynb_checkpoints
+
+# Ì∑™ TESTING
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Ì∫Ä DEPLOYMENT
+docker-compose.override.yml
+.terraform/
+
+# Ì≥ä TEMP & CACHE
+temp/
+tmp/
+*.tmp
+*.bak
+.mypy_cache/
+
+# Ìø¶ PROJECT SPECIFIC
+exports/
+backups/
+uploads/
+user_data/
+monitoring/*/data/
+
+# Ì≥± WEB ASSETS
+node_modules/
+npm-debug.log*
+
+# ÔøΩÔøΩ ARCHIVES
+*.zip.backup
+*.tar.gz.backup
+backup_*/
+
+# Ì≥ù NOTES
+TODO.md
+NOTES.md
+*.todo
